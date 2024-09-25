@@ -8,10 +8,7 @@ class House:
 
     def __str__(self):
         return (f'Название: {self.name}, кол-во этажей: {self.number_of_floors}')
-
-    def __del__(self):
-        print(f'{self.name} снесли :(')
-
+        
     # def go_to(self, new_floor):
     #     floor = 0
     #     for i in range(1, new_floor):
